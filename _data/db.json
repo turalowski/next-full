@@ -1,0 +1,142 @@
+{
+    "tickets": [{
+        "id": 1,
+        "title": "Finish Quarterly Report",
+        "body": "Compile sales data and create the report for Q3 2023.",
+        "priority": "High",
+        "user_email": "alice@example.com"
+    },
+    {
+        "id": 2,
+        "title": "Client Meeting",
+        "body": "Schedule a meeting with XYZ client to discuss project updates.",
+        "priority": "Medium",
+        "user_email": "bob@example.com"
+    },
+    {
+        "id": 3,
+        "title": "Budget Review",
+        "body": "Review and finalize the budget for the upcoming fiscal year.",
+        "priority": "Low",
+        "user_email": "carol@example.com"
+    },
+    {
+        "id": 4,
+        "title": "Product Launch Planning",
+        "body": "Plan and coordinate the launch of the new product line.",
+        "priority": "High",
+        "user_email": "dave@example.com"
+    },
+    {
+        "id": 5,
+        "title": "Website Redesign",
+        "body": "Work on redesigning the company website for a better user experience.",
+        "priority": "Medium",
+        "user_email": "eve@example.com"
+    },
+    {
+        "id": 6,
+        "title": "Marketing Campaign",
+        "body": "Create and launch a new marketing campaign for our latest product.",
+        "priority": "Low",
+        "user_email": "frank@example.com"
+    },
+    {
+        "id": 7,
+        "title": "Expense Report Submission",
+        "body": "Submit the monthly expense report by the end of the week.",
+        "priority": "High",
+        "user_email": "grace@example.com"
+    },
+    {
+        "id": 8,
+        "title": "Team Meeting",
+        "body": "Hold the weekly team meeting to discuss project updates and challenges.",
+        "priority": "Medium",
+        "user_email": "hank@example.com"
+    },
+    {
+        "id": 9,
+        "title": "Client Presentation",
+        "body": "Prepare a presentation for the upcoming client meeting.",
+        "priority": "Low",
+        "user_email": "irene@example.com"
+    },
+    {
+        "id": 10,
+        "title": "Inventory Audit",
+        "body": "Conduct an audit of the inventory in the warehouse.",
+        "priority": "High",
+        "user_email": "jack@example.com"
+    },
+    {
+        "id": 11,
+        "title": "Training Session",
+        "body": "Organize a training session for new employees on company policies.",
+        "priority": "Medium",
+        "user_email": "kate@example.com"
+    },
+    {
+        "id": 12,
+        "title": "Social Media Updates",
+        "body": "Post daily updates on company social media profiles.",
+        "priority": "Low",
+        "user_email": "lucas@example.com"
+    },
+    {
+        "id": 13,
+        "title": "Client Onboarding",
+        "body": "Assist new clients with the onboarding process and address their questions.",
+        "priority": "High",
+        "user_email": "mary@example.com"
+    },
+    {
+        "id": 14,
+        "title": "Data Analysis",
+        "body": "Analyze the sales data from the last quarter to identify trends.",
+        "priority": "Medium",
+        "user_email": "nina@example.com"
+    },
+    {
+        "id": 15,
+        "title": "Project Kick-off",
+        "body": "Kick off the new project with the project team and stakeholders.",
+        "priority": "Low",
+        "user_email": "oscar@example.com"
+    },
+    {
+        "id": 16,
+        "title": "Product Testing",
+        "body": "Conduct rigorous testing of the new product to ensure quality.",
+        "priority": "High",
+        "user_email": "peter@example.com"
+    },
+    {
+        "id": 17,
+        "title": "Employee Reviews",
+        "body": "Schedule and conduct performance reviews with team members.",
+        "priority": "Medium",
+        "user_email": "quincy@example.com"
+    },
+    {
+        "id": 18,
+        "title": "Sales Presentation",
+        "body": "Prepare a sales presentation for a potential client meeting.",
+        "priority": "Low",
+        "user_email": "rachel@example.com"
+    },
+    {
+        "id": 19,
+        "title": "Financial Analysis",
+        "body": "Analyze the company's financial statements and prepare a report.",
+        "priority": "High",
+        "user_email": "steve@example.com"
+    },
+    {
+        "id": 20,
+        "title": "Content Creation",
+        "body": "Create engaging content for the company blog and social media channels.",
+        "priority": "Medium",
+        "user_email": "tina@example.com"
+    }]
+}
