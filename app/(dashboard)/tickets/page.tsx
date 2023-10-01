@@ -1,7 +1,7 @@
 import { Suspense } from 'react';
 import TicketList from './ticket-list';
 import Loading from '../loading';
-import { Button } from '../components/ui/button';
+import { Button } from '../../components/ui/button';
 import Link from 'next/link';
 
 export default function Tickets() {
