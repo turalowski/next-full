@@ -14,7 +14,7 @@ import {
 
 export default function Navbar() {
   return (
-  <nav>
+  <nav className="mb-3">
       <NavigationMenu>
       <NavigationMenuList>
         <NavigationMenuItem>

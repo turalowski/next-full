@@ -15,6 +15,8 @@ type Ticket = {
 };
 
 async function getTickets(): Promise<Ticket[]> {
+  // imitate delay
+  await new Promise(resolve => setTimeout(resolve, 3000))
   const response = await fetch('http://localhost:5000/tickets', {
     next: {
       revalidate: 0, // opt out of using cache
@@ -26,7 +28,6 @@ async function getTickets(): Promise<Ticket[]> {
 
 export default async function TicketList() {
   const tickets = await getTickets();
-
   return (
     <div className="grid grid-cols-4 gap-3">
       {tickets.map(ticket => (
