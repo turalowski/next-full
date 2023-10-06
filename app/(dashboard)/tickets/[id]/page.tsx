@@ -20,6 +20,15 @@ type Ticket = {
   user_email: string;
 };
 
+export async function generateMetadata({ params }: { params: { id: string } }) {
+  const id = params.id;
+  const response = await fetch(`http://localhost:5000/tickets/${id}`);
+  const ticket: Ticket = await response.json();
+
+  return {
+    title: `Ticket | ${ticket.title}`,
+  };
+}
 // Function to fetch and generate static parameters
 export async function generateStaticParams() {
   // Fetching a list of tickets from a local server

@@ -6,3 +6,5 @@
 npm i json-server -g
 json-server --watch --port 5000 ./_data/db.json
 ```
+
+2. static and dynamic route handlers

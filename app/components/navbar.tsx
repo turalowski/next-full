@@ -18,16 +18,16 @@ export default function Navbar() {
       <NavigationMenu>
       <NavigationMenuList>
         <NavigationMenuItem>
-          <Link href="/" legacyBehavior passHref>
+          <Link href="/signup" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              Dashboard
+              Sign up
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link href="/tickets" legacyBehavior passHref>
+          <Link href="/login" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              Tickets
+              Login
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
